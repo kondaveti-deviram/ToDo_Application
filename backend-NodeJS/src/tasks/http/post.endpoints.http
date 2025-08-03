@@ -1,0 +1,10 @@
+POST http://localhost:3001/tasks
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2ODgyYzFiODI5MDM0MjRiMDczYmQ3YmUiLCJlbWFpbCI6ImpvaG5AZG9lLmNvbSIsImlhdCI6MTc1MzQxNzUyNywiZXhwIjoxNzUzNTAzOTI3fQ.cjIgrV7FRsvhButODg84VnwCCaAczRPXiWgR3bSmr_4
+{
+  "title": "Title with a user 2",
+  "dueDate": "2025-01-01T12:00:00Z",
+  "description": "HI I am Ram",
+  "priority": "normal",
+  "status": "todo"
+}
